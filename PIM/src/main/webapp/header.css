@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  height: 75px;
+  width: 280px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 20px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  margin-left: -20px;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    color-size: 14px;
+    padding: 22px 25px;
+    text-decoration: none;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #55d6aa;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 999;
+}
+
+nav ul li:hover ul{
+    display: block;    
+}
+
+nav ul li ul li{ 
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a{ 
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{ 
+    background-color: #f3f3f3;
+}
+

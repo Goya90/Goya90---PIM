@@ -1,0 +1,19 @@
+.roughcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.roughcontainer .graph {
+    margin: 5px;
+}
+
+.secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secondrow .diagram {
+    margin: 25px;
+}

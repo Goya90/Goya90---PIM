@@ -1,0 +1,36 @@
+/* 
+    Created on : Dec 4, 2019, 10:50:37 PM
+    Author     : Malthe
+*/
+
+h1 {
+    text-align: center;
+}
+
+.productIDContainer {
+    text-align: center;
+    line-height: 2;
+}
+
+.deleteAlign {
+    margin: 40px;
+    text-align: center;
+    
+}
+
+.delete {
+    font-size: 20px;
+    color: #444;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #55d6aa;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.delete:hover {
+    color:#000;
+}

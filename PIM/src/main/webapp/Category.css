@@ -1,0 +1,82 @@
+h3 {
+    text-align: center;
+}
+
+div.fullbinder {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+div.binder {
+  margin-left: 5px;
+}
+
+div.binder2 {
+  margin-left: 81px;
+}
+
+.enternewtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.apply {
+    margin-left: 52px;
+    font-size: 20px;
+    color: #444;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #55d6aa;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.apply2 {
+    margin-left: 56px;
+    font-size: 20px;
+    color: #444;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #55d6aa;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.apply3 {
+    margin-left: 74px;
+    justify-content: center;
+    width: 50%;
+    font-size: 20px;
+    color: #444;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #55d6aa;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.apply:hover {
+    color: #000;
+}
+
+div.responserequest {
+    text-align: center;
+}
+
+p {
+    margin-left: 35px;
+}

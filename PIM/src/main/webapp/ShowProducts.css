@@ -1,0 +1,93 @@
+.table {
+  border : 2px solid black;
+  table-layout: fixed;
+}
+
+.tr {
+  height: 50px;
+}
+
+.tr td {
+  border: 1px solid black;
+  overflow: hidden;
+  max-width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+}
+
+td.expanded {
+    overflow: initial;
+    white-space: normal;
+    height: 50px;
+}
+
+div.binder {
+  text-align: right;
+  margin-right: 17.1%;
+}
+
+div.scrollbutton {
+    position: fixed;
+  left: 0%;
+  bottom: 80%;
+  margin-left: 3%;
+  z-index: 1000;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  text-align: center;
+  text-decoration: none;
+}
+
+div.responserequest {
+    text-align: center;
+}
+
+thead {
+    color: white;
+}
+
+.searchInput {
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 3.9%;
+    border: 1px solid #848484;
+}
+
+.search {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #fff;
+    background-color: #797979;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.search:hover {
+    color: #333;
+}
+
+.editButton {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 4px;
+    color: #fff;
+    background-color: #797979;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.editButton:hover {
+    color: #333
+}
